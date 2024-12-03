@@ -59,3 +59,26 @@ footer {
 footer p {
     margin: 0;
 }
+
+#info-playa 
+{
+    background-color: #fffae6; /* Color suave para resaltar */
+    border-left: 5px solid #ffc107; /* Barra decorativa */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#info-playa h2 {
+    color: #ff9800; /* Tono vibrante para el título */
+}
+
+#info-playa ul {
+    list-style: square inside; /* Lista con estilo cuadrado */
+    margin: 10px 0;
+}
+
+#info-playa ul li {
+    margin: 10px 0;
+    color: #333;
+}
