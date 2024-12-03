@@ -1,0 +1,558 @@
+-- MASTER ACTUALMENTE HTML -- 
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meTA name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mi pagina WEB</title>
+            <link rel="stylesheet" href="diseño2.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenido a Mi Página Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Playa, Deporte y música</p>
+            </section>
+    
+            <section id="sobre-mi">
+                <h2>Sobre Mí</h2>
+                <p>Hola que tal, permiteme presentarme, a mi me encanta todo tipo de musica, me encanta el deporte, la playa, y me dará gusto que estes interactuando conmigo
+                    porque compartimos los mismos gustos y espero que este blog te encante..</p>
+            </section>
+    
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Cel: 584742224.</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
+
+--CSC MASTER ACTUALMENTE ---
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #58d6b3;
+    color: #333;
+}
+
+header {
+    background: #1ee95b;
+    color: #070707;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+-------------------------------------------------------------------------RAMA PLAYA-----------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meTA name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mi pagina WEB</title>
+            <link rel="stylesheet" href="diseño2.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenido a Mi Página Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Playa, Deporte y música</p>
+            </section>
+    
+            <section id="sobre-mi">
+                <h2>Sobre Mí</h2>
+                <p>Hola que tal, permiteme presentarme, a mi me encanta todo tipo de musica, me encanta el deporte, la playa, y me dará gusto que estes interactuando conmigo
+                    porque compartimos los mismos gustos y espero que este blog te encante..</p>
+            </section>
+            
+            <section id="info-playa">
+                <h2>Información de Playa</h2>
+                <p>Las playas son un lugar perfecto para relajarse y disfrutar del sol, el mar y la arena. Aquí te compartimos datos curiosos y consejos para disfrutar aún más de tus visitas:</p>
+                <ul>
+                    <li><strong>Playas ideales:</strong> Descubre los mejores destinos según tu gusto, desde playas tranquilas hasta lugares para practicar surf.</li>
+                    <li><strong>Cuidado del medio ambiente:</strong> Aprende cómo puedes proteger las playas recogiendo basura y utilizando protector solar ecoamigable.</li>
+                    <li><strong>Actividades divertidas:</strong> Desde snorkel hasta castillos de arena, ¡las opciones son infinitas!</li>
+                </ul>
+            </section>
+            
+    
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Cel: 584742224.</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
+
+
+
+css
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #58d6b3;
+    color: #333;
+}
+
+header {
+    background: #1ee95b;
+    color: #070707;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+#info-playa 
+{
+    background-color: #fffae6; /* Color suave para resaltar */
+    border-left: 5px solid #ffc107; /* Barra decorativa */
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#info-playa h2 {
+    color: #ff9800; /* Tono vibrante para el título */
+}
+
+#info-playa ul {
+    list-style: square inside; /* Lista con estilo cuadrado */
+    margin: 10px 0;
+}
+
+#info-playa ul li {
+    margin: 10px 0;
+    color: #333;
+}
+
+
+----------------------------------------------------------------------------------rama deortes-----------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meTA name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mi pagina WEB</title>
+            <link rel="stylesheet" href="diseño2.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenido a Mi Página Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Playa, Deporte y música</p>
+            </section>
+    
+            <section id="sobre-mi">
+                <h2>Sobre Mí</h2>
+                <p>Hola que tal, permiteme presentarme, a mi me encanta todo tipo de musica, me encanta el deporte, la playa, y me dará gusto que estes interactuando conmigo
+                    porque compartimos los mismos gustos y espero que este blog te encante..</p>
+            </section>
+
+            <section id="deporte">
+                <h2>Deportes</h2>
+                <p>El deporte es esencial para un estilo de vida saludable. Aquí te mostramos algunos de los deportes más populares:</p>
+                <ul>
+                    <li><strong>Fútbol:</strong> Es el deporte más practicado en el mundo, conocido por su pasión y emoción.</li>
+                    <li><strong>Baloncesto:</strong> Famoso por su dinamismo y el talento de jugadores de talla mundial.</li>
+                    <li><strong>Natación:</strong> Una excelente actividad para mantenerse en forma y cuidar la salud.</li>
+                </ul>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKdvgxOiqcsrE1nGRfeMjzV30BEYcaT1GPbg&s" alt="Imagen de deporte" class="deporte-imagen">
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Cel: 584742224.</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
+
+css
+
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #58d6b3;
+    color: #333;
+}
+
+header {
+    background: #1ee95b;
+    color: #070707;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo para la sección de deportes */
+#deporte ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#deporte li {
+    margin-bottom: 10px;
+}
+
+.deporte-imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+-------------------------------------------------------------------------------------rama musica----------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meTA name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mi pagina WEB</title>
+            <link rel="stylesheet" href="diseño2.css">
+    </head>
+    <body>
+        <header>
+            <h1>Bienvenido a Mi Página Web</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre-mi">Sobre Mí</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <p>Playa, Deporte y música</p>
+            </section>
+    
+            <section id="sobre-mi">
+                <h2>Sobre Mí</h2>
+                <p>Hola que tal, permiteme presentarme, a mi me encanta todo tipo de musica, me encanta el deporte, la playa, y me dará gusto que estes interactuando conmigo
+                    porque compartimos los mismos gustos y espero que este blog te encante..</p>
+            </section>
+
+            <section id="musica">
+                <h2>Música</h2>
+                <p>La música es un lenguaje universal que une a las personas. Aquí te dejamos una selección de géneros populares:</p>
+                <ul>
+                    <li><strong>Pop:</strong> Un género accesible y con ritmos pegadizos que conquista a todos.</li>
+                    <li><strong>Rock:</strong> Famoso por sus guitarras eléctricas y letras profundas.</li>
+                    <li><strong>Clásica:</strong> Una forma de arte que transmite emociones a través de orquestas y solistas.</li>
+                </ul>
+                <img src="https://i.pinimg.com/originals/0c/e9/d2/0ce9d222a4ac14ac1ea08ba70defb376.gif" alt="Imagen de música" class="musica-imagen">
+            </section>
+
+            <section id="contacto">
+                <h2>Contacto</h2>
+                <p>Cel: 584742224.</p>
+            </section>
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+        </footer>
+    </body>
+</html>
+
+css
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #58d6b3;
+    color: #333;
+}
+
+header {
+    background: #1ee95b;
+    color: #070707;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    background: #fff;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo para la sección de música */
+#musica ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+#musica li {
+    margin-bottom: 10px;
+}
+
+.musica-imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+
+
