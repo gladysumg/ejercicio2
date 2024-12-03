@@ -59,9 +59,7 @@ footer {
 footer p {
     margin: 0;
 }
-
-#info-playa 
-{
+#info-playa {
     background-color: #fffae6; /* Color suave para resaltar */
     border-left: 5px solid #ffc107; /* Barra decorativa */
     padding: 15px;
@@ -81,4 +79,21 @@ footer p {
 #info-playa ul li {
     margin: 10px 0;
     color: #333;
+}
+
+/* Estilo para la sección de deportes */
+#deporte ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+#deporte li {
+    margin-bottom: 10px;
+}
+
+.deporte-imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
 }
