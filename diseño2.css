@@ -59,3 +59,32 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Estilo para la sección de música */
+#musica ul {
+    list-style: circle;
+    padding-left: 20px;
+}
+
+#musica li {
+    margin-bottom: 10px;
+}
+
+.musica-imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos adicionales */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
